@@ -1,0 +1,15 @@
+{
+  "title": "Pairs",
+  "title_slug": "pairs",
+  "difficulty": "Medium",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/pairs/problem",
+  "tags": [],
+  "description": "Given an array of integers and a target value, determine the number of pairs of array elements that have a difference equal to the target value.\n\n**Example** **\n\nThere are three values that differ by : , , and .  Return .\n\nFunction Description**\n\nComplete the *pairs* function below.\n\npairs has the following parameter(s):\n\n* *int k:* an integer, the target difference\n\n* *int arr[n]:* an array of integers\n\n**Returns**\n\n* *int:* the number of pairs that satisfy the criterion\n\n**Input Format**\n\nThe first line contains two space-separated integers  and , the size of  and the target value. **\nThe second line contains  space-separated integers of the array .\n\nConstraints**\n\n*\n\n*\n\n*\n\n* each integer  will be unique\n\n**Sample Input**\n\n```\nSTDIN       Function\n-----       --------\n5 2         arr[] size n = 5, k =2\n1 5 3 4 2   arr = [1, 5, 3, 4, 2]\n\n```\n\n**Sample Output**\n\n```\n3\n\n```\n\n**Explanation**\n\nThere are 3 pairs of integers in the set with a difference of 2: [5,3], [4,2] and [3,1]. .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-22T14:45:29.320Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "pairs"
+}
