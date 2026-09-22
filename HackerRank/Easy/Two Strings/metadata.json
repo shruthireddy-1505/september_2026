@@ -1,0 +1,15 @@
+{
+  "title": "Two Strings",
+  "title_slug": "two-strings",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/two-strings/problem",
+  "tags": [],
+  "description": "Given two strings, determine if they share a common substring.  A substring may be as small as one character.\n\n**Example** **\n\nThese share the common substring .\n\nThese do not share a substring.\n\nFunction Description**\n\nComplete the function *twoStrings* in the editor below.\n\ntwoStrings has the following parameter(s):\n\n* *string s1:* a string\n\n* *string s2:* another string\n\n**Returns**\n\n* *string:* either `YES` or `NO`\n\n**Input Format**\n\nThe first line contains a single integer , the number of test cases.\n\nThe following  pairs of lines are as follows:\n\n* The first line contains string .\n\n* The second line contains string .\n\n**Constraints**\n\n*  and  consist of characters in the range ascii[a-z].\n\n*\n\n*\n\n**Output Format**\n\nFor each pair of strings, return `YES` or `NO`.\n\n**Sample Input**\n\n```\n2\nhello\nworld\nhi\nworld\n\n```\n\n**Sample Output**\n\n```\nYES\nNO\n\n```\n\n**Explanation**\n\nWe have  pairs to check:\n\n* , . The substrings  and  are common to both strings.\n\n* , .  and  share no common substrings.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-22T13:32:29.725Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "two-strings"
+}
