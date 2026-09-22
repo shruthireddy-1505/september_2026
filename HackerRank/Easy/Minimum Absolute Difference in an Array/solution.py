@@ -1,0 +1,47 @@
+# HackerRank Problem: Minimum Absolute Difference in an Array
+# Link: https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem
+# Difficulty: Easy
+# Language: python3
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'minimumAbsoluteDifference' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts INTEGER_ARRAY arr as parameter.
+#
+
+def minimumAbsoluteDifference(arr):
+    # Write your code here
+    arr.sort() # -7 0 3
+    i = 0
+    j = 1
+    mini = float("inf")
+    while j <  len(arr):
+        temp = abs(arr[i] - arr[j]) #10
+        if temp < mini:
+            mini = temp 
+        i += 1
+        j += 1
+    return mini
+    
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    arr = list(map(int, input().rstrip().split()))
+
+    result = minimumAbsoluteDifference(arr)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
