@@ -1,0 +1,15 @@
+{
+  "title": "Minimum Absolute Difference in an Array",
+  "title_slug": "minimum-absolute-difference-in-an-array",
+  "difficulty": "Easy",
+  "language": "python3",
+  "url": "https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem",
+  "tags": [],
+  "description": "The absolute difference is the positive difference between two values  and , is written  or  and they are equal.  If  and , . Given an array of integers, find the minimum absolute difference between any two elements in the array.\n\n**Example**.\n\nThere are  pairs of numbers:  and .  The absolute differences for these pairs are ,  and .  The minimum absolute difference is .\n\n**Function Description**\n\nComplete the *minimumAbsoluteDifference* function in the editor below.  It should return an integer that represents the minimum absolute difference between any pair of elements.\n\nminimumAbsoluteDifference has the following parameter(s):\n\n* *int arr[n]:* an array of integers\n\n**Returns**\n\n* *int:* the minimum absolute difference found\n\n**Input Format**\n\nThe first line contains a single integer , the size of . **\nThe second line contains  space-separated integers, .\n\nConstraints**\n\n*\n\n*\n\n**Sample Input 0**\n\n```\n3\n3 -7 0\n\n```\n\n**Sample Output 0**\n\n```\n3\n\n```\n\n**Explanation 0**\n\nThe first line of input is the number of array elements.  The array,   There are three pairs to test: , , and . The absolute  differences are:\n\n*\n\n*\n\n*\n\nRemember that the order of values in the subtraction does not influence the result.   The smallest of these absolute differences is .\n\n**Sample Input 1**\n\n```\n10\n-59 -36 -13 1 -53 -92 -2 -96 -54 75\n\n```\n\n**Sample Output 1**\n\n```\n1\n\n```\n\n**Explanation 1**\n\nThe smallest absolute difference is .\n\n**Sample Input 2**\n\n```\n5\n1 -3 71 68 17\n\n```\n\n**Sample Output 2**\n\n```\n3\n\n```\n\n**Explanation 2**\n\nThe minimum absolute difference is .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-09-22T13:16:29.692Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "minimum-absolute-difference-in-an-array"
+}
